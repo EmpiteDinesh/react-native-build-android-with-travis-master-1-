@@ -175,5 +175,3 @@ task copyDownloadableDepsToLibs(type: Copy) {
   from configurations.compile
   into 'libs'
 }
-
-task buildAndOtaRelease(dependsOn: ['build', 'crashlyticsUploadDistributionRelease'])
