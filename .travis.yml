@@ -15,7 +15,7 @@ android:
 script:
 - npm run ci
 - cd android && chmod +x gradlew
-#- ./gradlew assembleRelease
+- ./gradlew assembleRelease
 - ./gradlew crashlyticsUploadDistributionRelease
 - cd app/build/outputs/apk
 - ls
